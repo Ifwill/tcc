@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+}
+
+#superior{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 250px;
+}
+
+#inferior{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 300px;
+}
+
+#imgLogo{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+
+#textLogo{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+
+#campos{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
